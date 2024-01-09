@@ -13,7 +13,7 @@ app.use(express.json());
 app.set("view engine", "ejs");
 
 // database connection
-const dbURL = "mongodb://localhost:27017";
+const dbURL = "mongodb://localhost:27017/auth-node";
 mongoose
   .connect(dbURL, {
     useNewUrlParser: true,
